@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "clean": "rm -rf target && rm -rf dist",
+    "start": "cross-env NODE_ENV=development node ../../lib/cli.js -c --content-base public --port 9001 --hot",
+    "build": "npm run clean && cross-env NODE_ENV=production rollup -c"
+  },
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.44.0"
+  }
+}

@@ -1,0 +1,17 @@
+test/
+examples/
+NOTES
+example-project/
+package-lock.json
+target/
+.travis.yml
+API.md
+*.tgz
+coverage/
+docs/
+src/
+rollup.config.js
+jsconfig.json
+benchmark/
+TODO
+.github

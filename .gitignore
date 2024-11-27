@@ -1,0 +1,17 @@
+.idea/
+dist/
+*.log
+node_modules/
+.DS_STORE
+*.swp
+.npm
+.eslintcache
+target/
+*.stackdump
+package-lock.json
+*.tgz
+NOTES
+
+coverage/
+TODO
+benchmark

@@ -1,0 +1,28 @@
+{
+  "name": "nollup",
+  "description": "Rollup-compatible bundler for development.",
+  "version": "0.21.0",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PepsRyuu/nollup.git"
+  },
+  "homepage": "https://github.com/PepsRyuu/nollup",
+  "scripts": {
+    "test": "mocha-istanbul-ui \"test/cases/**/*.js\" --instrument --console --once",
+    "test:ui": "mocha-istanbul-ui \"test/cases/**/*.js\" --instrument --watch",
+    "test:headless": "xvfb-run npm run test",
+    "test:mocha": "mocha \"test/cases/**/*.js\""
+  },
+  "bin": {
+    "nollup": "./lib/cli.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.0",
+    "mocha-istanbul-ui": "^0.4.1",
+    "proxyquire": "^2.0.1",
+    "requirejs": "^2.3.6",
+    "rollup": "^2.79.1"
+  }
+}

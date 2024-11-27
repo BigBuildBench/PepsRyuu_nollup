@@ -1,0 +1,1 @@
+export { message1, message2, default } from './index-proxy';
